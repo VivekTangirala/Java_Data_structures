@@ -14,9 +14,7 @@ public class PowerEfficientIterative {
         int temp = a;
         double res = 1;
         while (b > 0) {
-            if (b % 2 == 0) {
-
-            } else {
+            if (b % 2 != 0) {
                 res *= temp;
             }
             temp = temp * temp;
